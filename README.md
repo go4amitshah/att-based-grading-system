@@ -1,5 +1,4 @@
 # Grading System
-
 ## Overview
 This project is a grading system that processes student marks from an Excel sheet, calculates SPI (Semester Performance Index), and exports the results back to an Excel file. It also handles conditional bonus marks based on attendance and pass/fail status.
 
