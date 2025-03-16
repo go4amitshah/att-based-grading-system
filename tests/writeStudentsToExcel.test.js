@@ -8,7 +8,7 @@ describe("Write Students to Excel", () => {
   beforeEach(() => {
     students = [
       {
-        Name: "John Doe",
+        Name: "John bhai Doe",
         Enrollment: "12345",
         Subjects: {
           Math: {
