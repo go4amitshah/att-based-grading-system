@@ -25,6 +25,10 @@ npm install
 To process the student data and generate results:
 
 ```sh
+cd src
+```
+
+```sh
 node index.mjs
 ```
 
@@ -90,22 +94,4 @@ To run unit tests:
 npm test
 ```
 
-## Issues and Debugging
-
-### Symlink Issue with Themes (Linux)
-If GTK themes are not applying correctly, ensure correct symlink setup:
-
-```sh
-rm -rf ~/.config/gtk-4.0
-ln -s ~/.themes/Greenify/gtk-4.0 ~/.config/gtk-4.0
-```
-
-Restart applications to apply the theme:
-
-```sh
-hyprctl reload
-```
-
-## License
-This project is open-source and available under the MIT License.
 
